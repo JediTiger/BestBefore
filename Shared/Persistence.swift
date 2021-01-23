@@ -1,10 +1,3 @@
-//
-//  Persistence.swift
-//  Shared
-//
-//  Created by Thor Lindberg on 22/01/2021.
-//
-
 import CoreData
 
 struct PersistenceController {
@@ -14,8 +7,11 @@ struct PersistenceController {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
         for _ in 0..<10 {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
+            let newStore = Store(context: viewContext)
+            newStore.name = ""
+            newStore.id = UUID()
+            newStore.latitude = 0
+            newStore.longitude = 0
         }
         do {
             try viewContext.save()

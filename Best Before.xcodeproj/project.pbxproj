@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E85D47525BB061000320C3F /* AddStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E85D47425BB061000320C3F /* AddStoreView.swift */; };
+		7E85D47625BB061000320C3F /* AddStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E85D47425BB061000320C3F /* AddStoreView.swift */; };
+		7E9506E125BA776B00AB3308 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9506E025BA776B00AB3308 /* CardView.swift */; };
+		7E9506E225BA776B00AB3308 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9506E025BA776B00AB3308 /* CardView.swift */; };
 		7EED0B7325BA5E040097A3F5 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED0B7225BA5E040097A3F5 /* Tests_iOS.swift */; };
 		7EED0B7E25BA5E040097A3F5 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED0B7D25BA5E040097A3F5 /* Tests_macOS.swift */; };
 		7EED0B8025BA5E040097A3F5 /* Best_Before.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EED0B5425BA5E030097A3F5 /* Best_Before.xcdatamodeld */; };
@@ -19,6 +23,12 @@
 		7EED0B8725BA5E040097A3F5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED0B5825BA5E030097A3F5 /* Persistence.swift */; };
 		7EED0B8825BA5E040097A3F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EED0B5925BA5E040097A3F5 /* Assets.xcassets */; };
 		7EED0B8925BA5E040097A3F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EED0B5925BA5E040097A3F5 /* Assets.xcassets */; };
+		7EED0B9E25BA5E460097A3F5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED0B9D25BA5E460097A3F5 /* MapView.swift */; };
+		7EED0B9F25BA5E460097A3F5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED0B9D25BA5E460097A3F5 /* MapView.swift */; };
+		7EED0BA925BA5E5E0097A3F5 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED0BA825BA5E5E0097A3F5 /* ListView.swift */; };
+		7EED0BAA25BA5E5E0097A3F5 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED0BA825BA5E5E0097A3F5 /* ListView.swift */; };
+		7EED0BB025BA5E700097A3F5 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED0BAF25BA5E700097A3F5 /* ScanView.swift */; };
+		7EED0BB125BA5E700097A3F5 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED0BAF25BA5E700097A3F5 /* ScanView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E85D47425BB061000320C3F /* AddStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStoreView.swift; sourceTree = "<group>"; };
+		7E9506E025BA776B00AB3308 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		7EED0B5525BA5E030097A3F5 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		7EED0B5625BA5E030097A3F5 /* Best_BeforeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Best_BeforeApp.swift; sourceTree = "<group>"; };
 		7EED0B5725BA5E030097A3F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +67,9 @@
 		7EED0B7925BA5E040097A3F5 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EED0B7D25BA5E040097A3F5 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		7EED0B7F25BA5E040097A3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EED0B9D25BA5E460097A3F5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7EED0BA825BA5E5E0097A3F5 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		7EED0BAF25BA5E700097A3F5 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				7EED0B5625BA5E030097A3F5 /* Best_BeforeApp.swift */,
-				7EED0B5725BA5E030097A3F5 /* ContentView.swift */,
+				7EED0B9C25BA5E340097A3F5 /* Views */,
 				7EED0B5825BA5E030097A3F5 /* Persistence.swift */,
 				7EED0B5925BA5E040097A3F5 /* Assets.xcassets */,
 				7EED0B5425BA5E030097A3F5 /* Best_Before.xcdatamodeld */,
@@ -157,6 +172,19 @@
 				7EED0B7F25BA5E040097A3F5 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		7EED0B9C25BA5E340097A3F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7EED0B5725BA5E030097A3F5 /* ContentView.swift */,
+				7E9506E025BA776B00AB3308 /* CardView.swift */,
+				7EED0B9D25BA5E460097A3F5 /* MapView.swift */,
+				7EED0BA825BA5E5E0097A3F5 /* ListView.swift */,
+				7E85D47425BB061000320C3F /* AddStoreView.swift */,
+				7EED0BAF25BA5E700097A3F5 /* ScanView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,8 +344,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EED0BB025BA5E700097A3F5 /* ScanView.swift in Sources */,
+				7E9506E125BA776B00AB3308 /* CardView.swift in Sources */,
 				7EED0B8225BA5E040097A3F5 /* Best_BeforeApp.swift in Sources */,
 				7EED0B8625BA5E040097A3F5 /* Persistence.swift in Sources */,
+				7EED0BA925BA5E5E0097A3F5 /* ListView.swift in Sources */,
+				7E85D47525BB061000320C3F /* AddStoreView.swift in Sources */,
+				7EED0B9E25BA5E460097A3F5 /* MapView.swift in Sources */,
 				7EED0B8025BA5E040097A3F5 /* Best_Before.xcdatamodeld in Sources */,
 				7EED0B8425BA5E040097A3F5 /* ContentView.swift in Sources */,
 			);
@@ -327,8 +360,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EED0BB125BA5E700097A3F5 /* ScanView.swift in Sources */,
+				7E9506E225BA776B00AB3308 /* CardView.swift in Sources */,
 				7EED0B8325BA5E040097A3F5 /* Best_BeforeApp.swift in Sources */,
 				7EED0B8725BA5E040097A3F5 /* Persistence.swift in Sources */,
+				7EED0BAA25BA5E5E0097A3F5 /* ListView.swift in Sources */,
+				7E85D47625BB061000320C3F /* AddStoreView.swift in Sources */,
+				7EED0B9F25BA5E460097A3F5 /* MapView.swift in Sources */,
 				7EED0B8125BA5E040097A3F5 /* Best_Before.xcdatamodeld in Sources */,
 				7EED0B8525BA5E040097A3F5 /* ContentView.swift in Sources */,
 			);

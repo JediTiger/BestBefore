@@ -1,10 +1,3 @@
-//
-//  Best_BeforeApp.swift
-//  Shared
-//
-//  Created by Thor Lindberg on 22/01/2021.
-//
-
 import SwiftUI
 
 @main
